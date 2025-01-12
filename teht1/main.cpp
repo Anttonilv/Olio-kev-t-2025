@@ -5,7 +5,7 @@
 int game(int maxnum);
 
 int main() {
-    int maxnum = 40; // Korkein etsittävä luku
+    int maxnum = 40;
     std::cout << "Peli alkaa! Arvaa luku valilta 1-" << maxnum << ".\n";
 
     int arvaustenMaara = game(maxnum);
